@@ -1,0 +1,30 @@
+{
+    "proxy": "",
+    "verbose": true,
+    "accounts": {
+        "account1": {
+            "username": "***",
+            "password": "***"    
+        },
+        "account2": {
+            "username": "***",
+            "password": "***"    
+        }
+    },
+    "devices": {
+        "device1": {
+            "account": "account1",
+            "deviceSerialNumber": "***",
+            "deviceType": "***"
+        },
+        "device2": {
+            "account": "account2",
+            "deviceSerialNumber": "***",
+            "deviceType": "***"
+        }
+    },
+    "commands": {
+        "pause": "PauseCommand",
+        "play": "PlayCommand"
+    }
+}
